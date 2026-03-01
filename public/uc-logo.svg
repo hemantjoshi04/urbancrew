@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background with border radius -->
+  <rect x="0" y="0" width="100" height="100" rx="25" fill="#facc15" />
+  <!-- Text UC centered -->
+  <text 
+    x="50" 
+    y="52" 
+    font-family="Arial, sans-serif" 
+    font-size="45" 
+    font-weight="bold" 
+    fill="#000000" 
+    text-anchor="middle" 
+    dominant-baseline="middle"
+  >
+    UC
+  </text>
+</svg>
