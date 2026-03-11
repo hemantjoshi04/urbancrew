@@ -1,0 +1,150 @@
+.solutions-section {
+    padding: 80px 8%;
+    background-color: #000;
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.solutions-header {
+    margin-bottom: 40px;
+}
+
+.solutions-badge {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(250, 204, 21, 0.1) !important;
+    color: #facc15 !important;
+    border: 1px solid rgba(250, 204, 21, 0.3) !important;
+    width: fit-content;
+    cursor: default !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+.badge-icon {
+    font-size: 14px;
+}
+
+.solutions-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 15px 0 10px 0;
+    color: #fff;
+}
+
+.solutions-subtitle {
+    font-size: 16px;
+    color: #a3a3a3;
+    margin: 0;
+}
+
+/* Grid Layout */
+.solutions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* Card Styling */
+.solutions-card {
+    background-color: #0a0a0a;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    padding: 35px;
+}
+
+.card-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.solutions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #121212;
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #d1d5db;
+    border: 1px solid #1a1a1a;
+    transition: border-color 0.3s ease;
+}
+
+.list-item:hover {
+    border-color: #333;
+}
+
+.list-icon {
+    color: #facc15;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+/* Specific to Right Card */
+.benefits-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-meeting-btn {
+    background-color: #facc15;
+    color: #000;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.book-meeting-btn:hover {
+    background-color: #eab308;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(250, 204, 21, 0.2);
+}
+
+.btn-icon {
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .solutions-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .solutions-title {
+        font-size: 28px;
+    }
+
+    .solutions-card {
+        padding: 25px;
+    }
+
+    .book-meeting-btn {
+        width: 100%;
+    }
+}
